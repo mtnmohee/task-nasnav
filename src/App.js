@@ -19,11 +19,11 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/test",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/test",
         element: (
           <React.Suspense fallback="Loading ....">
             <LazyProduct />
