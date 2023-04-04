@@ -85,6 +85,7 @@
       .center {
         text-align: center;
         justify-content: center;
+        align-items: center;
         margin: 0 30px;
         gap: 5;
       }
@@ -95,24 +96,6 @@
   }
 }
 
-// @media (max-width: 650px) {
-//   .navbar {
-//     .wrapper {
-//       width: 90%;
-
-//       .left {
-//         flex: 1;
-//       }
-//       .center {
-//         flex: 2;
-//       }
-//       .right {
-//         flex: 2;
-//       }
-//     }
-//   }
-// }
-
 @media (max-width: 650px) {
   .navbar {
     height: 100%;
@@ -122,11 +105,11 @@
       margin-bottom: 10px;
       .left {
         height: 50px;
-        width: 400px;
+        width: 350px;
         display: flex;
-        justify-content: flex-start;
-        gap: 150px;
+        gap: 130px;
       }
+
       .right {
         margin-top: 5px;
       }
@@ -138,9 +121,7 @@
   .navbar {
     .wrapper {
       .left {
-        // height: 100px;
         width: 250px;
-
         gap: 75px;
       }
     }

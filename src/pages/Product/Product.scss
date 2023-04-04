@@ -34,13 +34,17 @@
 
         .rotateIcon {
           position: absolute;
-          width: 44.27px;
-          height: 48px;
-          top: 40px;
-          left: 40px;
+          width: 64px;
+          height: 64px;
+          top: 24px;
+          left: 24px;
           background-color: #ffffff;
-          padding: 10px;
+          padding: 5px;
           border-radius: 7px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
         }
       }
       .images {
@@ -237,6 +241,10 @@
         .mainImg {
           width: 300px;
           height: 300px;
+          .rotateIcon {
+            width: 40px;
+            height: 40px;
+          }
         }
         .images {
           align-items: center;
@@ -276,6 +284,10 @@
 
 @media (max-width: 500px) {
   .product {
+    .top {
+      margin-top: 20px;
+      text-align: center;
+    }
     .middle {
       .left {
         width: 80%;

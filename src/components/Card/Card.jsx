@@ -34,11 +34,26 @@ export default class Card extends Component {
 
           <div className="rate">
             <div className="icons">
-              <img src="/images/starYellow.svg" alt="" />
-              <img src="/images/starYellow.svg" alt="" />
-              <img src="/images/starYellow.svg" alt="" />
-              <img src="/images/starYellow.svg" alt="" />
-              <img src="/images/starWite.svg" alt="" />
+              <img
+                src={process.env.PUBLIC_URL + "/images/starYellow.svg"}
+                alt=""
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/images/starYellow.svg"}
+                alt=""
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/images/starYellow.svg"}
+                alt=""
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/images/starYellow.svg"}
+                alt=""
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/images/starWite.svg"}
+                alt=""
+              />
             </div>
             <h5>4.2 of 5</h5>
           </div>
