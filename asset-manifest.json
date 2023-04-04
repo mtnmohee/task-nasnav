@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.073c9b0a.css",
-    "main.js": "/test/static/js/main.3fd92483.js",
-    "static/js/787.0c3f432a.chunk.js": "/test/static/js/787.0c3f432a.chunk.js",
-    "static/media/logo.svg": "/test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/test/static/css/main.b6f46358.css",
+    "main.js": "/test/static/js/main.ff800462.js",
+    "static/css/428.e8e886b9.chunk.css": "/test/static/css/428.e8e886b9.chunk.css",
+    "static/js/428.14e6e2dc.chunk.js": "/test/static/js/428.14e6e2dc.chunk.js",
+    "static/media/product2.png": "/test/static/media/product2.de5c4d56e26d8c2d8cbc.png",
+    "static/media/product1.png": "/test/static/media/product1.d3a9a51d4d4a2c6082c1.png",
+    "static/media/product4.png": "/test/static/media/product4.f0891db17cdae8099356.png",
+    "static/media/product3.png": "/test/static/media/product3.7c09646d1a455c46be2d.png",
+    "static/media/img4.png": "/test/static/media/img4.57019743ea771c835a65.png",
+    "static/media/img2.png": "/test/static/media/img2.f239f2596c4ecfc9a193.png",
+    "static/media/img3.png": "/test/static/media/img3.7021f7ee7d081cc840ba.png",
+    "static/media/img1.png": "/test/static/media/img1.5f16d414011155e693c0.png",
+    "static/media/color2.png": "/test/static/media/color2.7b266500a8fa287ad178.png",
+    "static/media/color1.png": "/test/static/media/color1.2156f63d626028ec203a.png",
+    "static/media/addidas.svg": "/test/static/media/addidas.acfd06476a2550f18f8455cd7d50ca1a.svg",
+    "static/media/360.svg": "/test/static/media/360.934f9794df670161fd97d7b86740b364.svg",
     "index.html": "/test/index.html",
-    "main.073c9b0a.css.map": "/test/static/css/main.073c9b0a.css.map",
-    "main.3fd92483.js.map": "/test/static/js/main.3fd92483.js.map",
-    "787.0c3f432a.chunk.js.map": "/test/static/js/787.0c3f432a.chunk.js.map"
+    "main.b6f46358.css.map": "/test/static/css/main.b6f46358.css.map",
+    "main.ff800462.js.map": "/test/static/js/main.ff800462.js.map",
+    "428.e8e886b9.chunk.css.map": "/test/static/css/428.e8e886b9.chunk.css.map",
+    "428.14e6e2dc.chunk.js.map": "/test/static/js/428.14e6e2dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3fd92483.js"
+    "static/css/main.b6f46358.css",
+    "static/js/main.ff800462.js"
   ]
 }
