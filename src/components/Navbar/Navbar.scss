@@ -1,0 +1,148 @@
+@import "../../style/variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-color;
+  height: 50px;
+  padding: 20px auto;
+
+  .wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+    .center {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .linkShop {
+        color: inherit;
+        font-weight: bold;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Responsive screen
+
+@media (max-width: 1050px) {
+  .navbar {
+    .wrapper {
+      font-size: 12px;
+      .left {
+        gap: 5px;
+        .item {
+          width: 70px;
+          height: 70px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .bar {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .center {
+        gap: 5px;
+      }
+      .right {
+        gap: 7px;
+        .item {
+          gap: 5px;
+          .link {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    .wrapper {
+      .center {
+        text-align: center;
+        justify-content: center;
+        margin: 0 30px;
+        gap: 5;
+      }
+      .right {
+        text-align: center;
+      }
+    }
+  }
+}
+
+// @media (max-width: 650px) {
+//   .navbar {
+//     .wrapper {
+//       width: 90%;
+
+//       .left {
+//         flex: 1;
+//       }
+//       .center {
+//         flex: 2;
+//       }
+//       .right {
+//         flex: 2;
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 650px) {
+  .navbar {
+    height: 100%;
+
+    .wrapper {
+      flex-direction: column;
+      margin-bottom: 10px;
+      .left {
+        height: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 150px;
+      }
+      .right {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar {
+    .wrapper {
+      .left {
+        // height: 100px;
+        width: 250px;
+
+        gap: 75px;
+      }
+    }
+  }
+}

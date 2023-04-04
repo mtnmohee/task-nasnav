@@ -1,0 +1,41 @@
+@import "../../style/variables.scss";
+
+.featuredProducts {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      color: $secondary-color;
+      font-size: 28px;
+    }
+    p {
+      margin-top: -10px;
+      font-size: 22px;
+      color: #575756;
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid #d9d9d9;
+    padding-bottom: 30px;
+  }
+  .card {
+    width: 240px;
+  }
+  &::after {
+    content: "";
+    width: 70%;
+    height: 5px;
+    background-color: $secondary-color;
+    position: absolute;
+    bottom: -1px;
+  }
+}

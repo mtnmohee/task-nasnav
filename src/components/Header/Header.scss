@@ -1,0 +1,163 @@
+@import "../../style/variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 320px;
+      height: 48px;
+      border: 1px solid #d8d8d8;
+      border-radius: 24px;
+      img {
+        margin-left: 20px;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+    .item {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+      align-items: center;
+      .cartIcon {
+        position: relative;
+        span {
+          font-size: 10px;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: $primary-color;
+          position: absolute;
+          top: -5px;
+          right: -5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    background-color: #000000;
+
+    .bottom-container {
+      width: 80%;
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: space-between;
+      margin: 7px auto;
+      color: white;
+      h4 {
+        font-size: 17px;
+        cursor: pointer;
+
+        &:hover {
+          color: #f11133;
+        }
+      }
+    }
+  }
+}
+
+// Responsive screen
+
+@media (max-width: 850px) {
+  .header {
+    .top {
+      .left {
+        width: 200px;
+      }
+      .center {
+        width: 50px;
+        height: 40px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .right {
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    .top {
+      width: 90%;
+      .left {
+        width: 150px;
+      }
+
+      .right {
+        gap: 5px;
+        .item {
+          gap: 5px;
+        }
+      }
+    }
+    .bottom {
+      .bottom-container {
+        h4 {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    .top {
+      .left {
+        width: 45px;
+        border: none;
+        input {
+          display: none;
+        }
+      }
+
+      .right {
+        .item {
+          img {
+            width: 20px;
+            height: 20px;
+          }
+          h4 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .header {
+    margin-bottom: 20px;
+    .bottom {
+      .bottom-container {
+        h4 {
+          flex-basis: 30%;
+        }
+      }
+    }
+  }
+}
