@@ -19,11 +19,11 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/test",
+    path: "/task-nasnav",
     element: <Layout />,
     children: [
       {
-        path: "/test",
+        path: "/task-nasnav",
         element: (
           <React.Suspense fallback="Loading ....">
             <LazyProduct />
