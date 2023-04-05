@@ -7,7 +7,7 @@ export default class Card extends Component {
   render() {
     const { item } = this.props;
     return (
-      <Link className="link" to={`/`}>
+      <Link className="link" to={`/task-nasnav`}>
         <div className="card">
           <div className="images">
             <img className="rotateIcon" src={rotateIcon} alt="" />

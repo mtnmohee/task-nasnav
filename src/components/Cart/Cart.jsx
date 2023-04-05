@@ -13,6 +13,14 @@ export default class Cart extends Component {
   render() {
     const { cartItems } = this.props;
 
+    const totalPrice = () => {
+      let total = 0;
+      cartItems.forEach((item) => {
+        total += item.quantity * item.price;
+      });
+      return total.toLocaleString("en-US", { minimumFractionDigits: 2 });
+    };
+
     return (
       <>
         {this.state.open && (
@@ -50,7 +58,7 @@ export default class Cart extends Component {
                 </div>
               ))}
               <h2>
-                Total: <span>19,999</span> LE
+                Total: <span>{totalPrice()}</span> LE
               </h2>
 
               <div className="btns">

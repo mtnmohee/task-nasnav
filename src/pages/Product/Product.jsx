@@ -55,7 +55,7 @@ export default class Product extends Component {
     const newItem = {
       title:
         "Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      price: "9,999",
+      price: 9999,
       quantity: this.state.quantity,
       img: images[0],
     };
